@@ -6,7 +6,7 @@
 [x] - [1.3. Keeping the Last N Items](./lessons/dsa-1/dsa2.py)
 [x] - [1.4. Finding the Largest or Smallest N Items](./dsa-1/dsa2.py) 
 [x] - [1.5. Implementing a Priority Queue](./lessons/dsa-1/dsa3.py) 
-[] - [1.6. Mapping Keys to Multiple Values in a Dictionary](./lessons/dsa-1/dsa4.py) 
+[x] - [1.6. Mapping Keys to Multiple Values in a Dictionary](./lessons/dsa-1/dsa4.py) 
 [] - [1.7. Keeping Dictionaries in Order]() 
 [] - [1.8. Calculating with Dictionaries]()
 [] - [1.9. Finding Commonalities in Two Dictionaries]() 
