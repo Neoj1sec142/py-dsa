@@ -9,7 +9,7 @@
 [x] - [1.6. Mapping Keys to Multiple Values in a Dictionary](./lessons/dsa-1/dsa4.py) 
 [x] - [1.7. Keeping Dictionaries in Order](./lessons/dsa-1/dsa4.py) 
 [x] - [1.8. Calculating with Dictionaries](./lessons/dsa-1/dsa4.py)
-[] - [1.9. Finding Commonalities in Two Dictionaries]() 
+[x] - [1.9. Finding Commonalities in Two Dictionaries](./lessons/dsa-1/dsa4.py) 
 [] - [1.10. Removing Duplicates from a Sequence while Maintaining Order]() 
 [] - [1.11. Naming a Slice]()
 [] - [1.12. Determining the Most Frequently Occurring Items in a Sequence]() 
