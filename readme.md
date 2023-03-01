@@ -16,7 +16,7 @@
 [x] - [1.13. Sorting a List of Dictionaries by a Common Key](./lessons/dsa-1/dsa6.py) 
 [x] - [1.14. Sorting Objects Without Native Comparison Support](./lessons/dsa-1/dsa6.py) 
 [x] - [1.15. Grouping Records Together Based on a Field](./lessons/dsa-1/dsa6.py) 
-[] - [1.16. Filtering Sequence Elements]() 
+[x] - [1.16. Filtering Sequence Elements]() 
 [] - [1.17. Extracting a Subset of a Dictionary]()
 [] - [1.18. Mapping Names to Sequence Elements]() 
 [] - [1.19. Transforming and Reducing Data at the Same Time]() 
