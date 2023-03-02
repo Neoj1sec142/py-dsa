@@ -16,18 +16,37 @@
 [x] - [1.13. Sorting a List of Dictionaries by a Common Key](./lessons/dsa-1/dsa6.py) 
 [x] - [1.14. Sorting Objects Without Native Comparison Support](./lessons/dsa-1/dsa6.py) 
 [x] - [1.15. Grouping Records Together Based on a Field](./lessons/dsa-1/dsa6.py) 
-[x] - [1.16. Filtering Sequence Elements]() 
-[] - [1.17. Extracting a Subset of a Dictionary]()
-[] - [1.18. Mapping Names to Sequence Elements]() 
-[] - [1.19. Transforming and Reducing Data at the Same Time]() 
-[] - [1.20. Combining Multiple Mappings into a Single Mapping]()
+[x] - [1.16. Filtering Sequence Elements](./lessons/dsa-1/dsa6.py) 
+[x] - [1.17. Extracting a Subset of a Dictionary](./lessons/dsa-1/dsa7.py)
+[x] - [1.18. Mapping Names to Sequence Elements](./lessons/dsa-1/dsa7.py) 
+[x] - [1.19. Transforming and Reducing Data at the Same Time](./lessons/dsa-1/dsa7.py) 
+[x] - [1.20. Combining Multiple Mappings into a Single Mapping](./lessons/dsa-1/dsa7.py)
 ***   
 ## 2. Strings and Text
-2.1. Splitting Strings on Any of Multiple Delimiters 37 2.2. Matching Text at the Start or End of a String 38 2.3. Matching Strings Using Shell Wildcard Patterns 40 2.4. Matching and Searching for Text Patterns 42
- www.it-ebooks.info
-iii
-2.5. Searching and Replacing Text 45 2.6. Searching and Replacing Case-Insensitive Text 46 2.7. Specifying a Regular Expression for the Shortest Match 47 2.8. Writing a Regular Expression for Multiline Patterns 48 2.9. Normalizing Unicode Text to a Standard Representation 50 2.10. Working with Unicode Characters in Regular Expressions 52 2.11. Stripping Unwanted Characters from Strings 53 2.12. Sanitizing and Cleaning Up Text 54 2.13. Aligning Text Strings 57 2.14. Combining and Concatenating Strings 58 2.15. Interpolating Variables in Strings 61 2.16. Reformatting Text to a Fixed Number of Columns 64 2.17. Handling HTML and XML Entities in Text 65 2.18. Tokenizing Text 66 2.19. Writing a Simple Recursive Descent Parser 69 2.20. Performing Text Operations on Byte Strings 78
-3. Numbers, Dates, and Times. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
+[] - [2.1. Splitting Strings on Any of Multiple Delimiters]()
+[] - [2.2. Matching Text at the Start or End of a String]()
+[] - [2.3. Matching Strings Using Shell Wildcard Patterns]()
+[] - [2.4. Matching and Searching for Text Patterns]()
+    * [iii]('www.it-ebooks.info')
+[] - [2.5. Searching and Replacing Text]()
+[] - [2.6. Searching and Replacing Case-Insensitive Text]()
+[] - [2.7. Specifying a Regular Expression for the Shortest Match]()
+[] - [2.8. Writing a Regular Expression for Multiline Patterns]()
+[] - [2.9. Normalizing Unicode Text to a Standard Representation]()
+[] - [2.10. Working with Unicode Characters in Regular Expressions]()
+[] - [2.11. Stripping Unwanted Characters from Strings]()
+[] - [2.12. Sanitizing and Cleaning Up Text]()
+[] - [2.13. Aligning Text Strings]()
+[] - [2.14. Combining and Concatenating Strings]()
+[] - [2.15. Interpolating Variables in Strings]()
+[] - [2.16. Reformatting Text to a Fixed Number of Columns]()
+[] - [2.17. Handling HTML and XML Entities in Text]()
+[] - [2.18. Tokenizing Text]()
+[] - [2.19. Writing a Simple Recursive Descent Parser]()
+[] - [2.20. Performing Text Operations on Byte Strings]()
+
+## 3. Numbers, Dates, and Times
+***        
 3.1. Rounding Numerical Values 83 3.2. Performing Accurate Decimal Calculations 84 3.3. Formatting Numbers for Output 87 3.4. Working with Binary, Octal, and Hexadecimal Integers 89 3.5. Packing and Unpacking Large Integers from Bytes 90 3.6. Performing Complex-Valued Math 92 3.7. Working with Infinity and NaNs 94 3.8. Calculating with Fractions 96 3.9. Calculating with Large Numerical Arrays 97 3.10. Performing Matrix and Linear Algebra Calculations 100 3.11. Picking Things at Random 102 3.12. Converting Days to Seconds, and Other Basic Time Conversions 104 3.13. Determining Last Friday’s Date 106 3.14. Finding the Date Range for the Current Month 107 3.15. Converting Strings into Datetimes 109 3.16. Manipulating Dates Involving Time Zones 110
 4. Iterators and Generators. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 113
 4.1. Manually Consuming an Iterator 113 4.2. Delegating Iteration 114 4.3. Creating New Iteration Patterns with Generators 115 4.4. Implementing the Iterator Protocol 117 4.5. Iterating in Reverse 119 4.6. Defining Generator Functions with Extra State 120
