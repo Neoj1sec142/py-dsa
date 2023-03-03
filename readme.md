@@ -23,10 +23,10 @@
 [x] - [1.20. Combining Multiple Mappings into a Single Mapping](./lessons/dsa-1/dsa7.py)
 ***   
 ## 2. Strings and Text
-[] - [2.1. Splitting Strings on Any of Multiple Delimiters]()
-[] - [2.2. Matching Text at the Start or End of a String]()
-[] - [2.3. Matching Strings Using Shell Wildcard Patterns]()
-[] - [2.4. Matching and Searching for Text Patterns]()
+[x] - [2.1. Splitting Strings on Any of Multiple Delimiters](./lessons/str-2/str1.py)
+[x] - [2.2. Matching Text at the Start or End of a String](./lessons/str-2/str1.py)
+[x] - [2.3. Matching Strings Using Shell Wildcard Patterns](./lessons/str-2/str1.py)
+[x] - [2.4. Matching and Searching for Text Patterns](./lessons/str-2/str1.py)
     * [iii]('www.it-ebooks.info')
 [] - [2.5. Searching and Replacing Text]()
 [] - [2.6. Searching and Replacing Case-Insensitive Text]()
