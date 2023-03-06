@@ -28,7 +28,7 @@
 [x] - [2.3. Matching Strings Using Shell Wildcard Patterns](./lessons/str-2/str1.py)
 [x] - [2.4. Matching and Searching for Text Patterns](./lessons/str-2/str1.py)
     * [iii]('www.it-ebooks.info')
-[] - [2.5. Searching and Replacing Text]()
+[x] - [2.5. Searching and Replacing Text]()
 [] - [2.6. Searching and Replacing Case-Insensitive Text]()
 [] - [2.7. Specifying a Regular Expression for the Shortest Match]()
 [] - [2.8. Writing a Regular Expression for Multiline Patterns]()
