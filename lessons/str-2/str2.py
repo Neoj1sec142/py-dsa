@@ -33,3 +33,30 @@ to specify a substitution callback function
 # print(datepat.sub(change_date, text))
 
 # ######## 2.6 ###########
+'''
+You need to search for and possibly
+replace text in a case-insensitive manner.
+re.INGNORECASE
+'''
+# text = 'UPPER PYTHON, lower python, Mixed Python'
+# import re
+# one = re.findall('python', text, flags=re.IGNORECASE)
+# two = re.sub('python', 'snake', text, flags=re.IGNORECASE)
+# you may need to create a matchcase function for more 
+# elaborate cases to switch words following case matching
+# def matchcase(word):
+#     def replace(m):
+#         text = m.group()
+#         if text.isupper():
+#             return word.upper()
+#         elif text.islower():
+#             return word.lower()
+#         elif text[0].isupper():
+#             return word.capitalize()
+#         else:
+#             return word
+#     return replace
+
+# print(re.sub('python', matchcase('snake'), text, flags=re.IGNORECASE))
+
+# ######## 2.7 ###########
