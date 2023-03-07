@@ -60,3 +60,29 @@ re.INGNORECASE
 # print(re.sub('python', matchcase('snake'), text, flags=re.IGNORECASE))
 
 # ######## 2.7 ###########
+'''
+You're trying to match a text pattern using regular expressions,
+but it is identifying the longest possible matches of a pattern. 
+Instead, you would like to change it to find the shortest 
+possible match.
+'''
+# import re
+# str_pat = re.compile(r'\"(.*)\"')
+# text1 = 'Computer says "no."'
+# text2 = 'Computer says "no." Phone says "yes."'
+# str_pat.findall(text1)
+# print(str_pat.findall(text2))
+
+# ######## 2.8 ###########
+'''
+You're trying to match a block of text using a regular expression,
+but you need the match to span multiple lines.
+'''
+# import re
+# comment = re.compile(r'/\*((?:.|\n)*?)\*/', re.DOTALL)
+# text1 = '/* this is a comment */' 
+# text2 = '''/* this is a
+#         ... multiline comment */ ... '''
+
+# print(comment.findall(text1)) 
+# print(comment.findall(text2))
