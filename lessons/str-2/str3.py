@@ -35,3 +35,58 @@ or matching
 # print(''.join(c for c in t1 if not unicodedata.combining(c)))
 
 # ######## 2.10 ###########
+'''
+if you are using re exp to process
+txt, but are concerned about the 
+handling of Unicode characters
+
+by default the re module is already
+programmed with knowedge of certain
+Unicode character classes. EX: \d - digit
+'''
+# import re
+# num = re.compile('\d+')
+# ASCII digits
+# print(num.match('123'))
+#Arabic digits
+# print(num.match('\u0661\u0662\u0663'))
+
+# arabic = re.compile('[\u0600-\u06ff\u0750-\u077f\u08a0-\u08ff]+')
+# print(arabic)
+
+# Be aware of Case folding
+# pat = re.compile('stra\u00dfe', re.IGNORECASE)
+# s = 'straße'
+# print(pat.match(s.upper()))
+
+# ######## 2.11 ###########
+'''
+if you want to strip unwanted whitespace
+'''
+# s = '     hello world  \n'
+# print(s.strip())
+
+# Character Stripping
+# t = '-----hello====='
+# print(t.lstrip('-'))
+# print(t.rstrip('='))
+# print(t.strip('-='))
+'''
+if you wanted to remove characters
+or space from the inside of a string
+you would have to use another tecnique
+such as replace
+'''
+# print(s.replace(' ', ''))
+# import re
+# print(re.sub('\s+', ' ', s))
+'''
+you can also combine with iterative processes
+'''
+# EX
+# with open('filename') as f:
+#     lines = (line.strip() for line in f)
+#     for line in lines:
+#         pass
+
+# ######## 2.12 ###########
