@@ -44,10 +44,26 @@
 [] - [2.18. Tokenizing Text]()
 [] - [2.19. Writing a Simple Recursive Descent Parser]()
 [] - [2.20. Performing Text Operations on Byte Strings]()
+***        
 
 ## 3. Numbers, Dates, and Times
-***        
-3.1. Rounding Numerical Values 83 3.2. Performing Accurate Decimal Calculations 84 3.3. Formatting Numbers for Output 87 3.4. Working with Binary, Octal, and Hexadecimal Integers 89 3.5. Packing and Unpacking Large Integers from Bytes 90 3.6. Performing Complex-Valued Math 92 3.7. Working with Infinity and NaNs 94 3.8. Calculating with Fractions 96 3.9. Calculating with Large Numerical Arrays 97 3.10. Performing Matrix and Linear Algebra Calculations 100 3.11. Picking Things at Random 102 3.12. Converting Days to Seconds, and Other Basic Time Conversions 104 3.13. Determining Last Friday’s Date 106 3.14. Finding the Date Range for the Current Month 107 3.15. Converting Strings into Datetimes 109 3.16. Manipulating Dates Involving Time Zones 110
+3.1. Rounding Numerical Values 
+3.2. Performing Accurate Decimal Calculations 
+3.3. Formatting Numbers for Output 
+3.4. Working with Binary, Octal, and Hexadecimal Integers 
+3.5. Packing and Unpacking Large Integers from Bytes 
+3.6. Performing Complex-Valued Math 
+3.7. Working with Infinity and NaNs 
+3.8. Calculating with Fractions 
+3.9. Calculating with Large Numerical Arrays 
+3.10. Performing Matrix and Linear Algebra Calculations 
+3.11. Picking Things at Random 
+3.12. Converting Days to Seconds, and Other Basic Time Conversions 
+3.13. Determining Last Friday’s Date 
+3.14. Finding the Date Range for the Current Month 
+3.15. Converting Strings into Datetimes 
+3.16. Manipulating Dates Involving Time Zones 
+***      
 4. Iterators and Generators. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 113
 4.1. Manually Consuming an Iterator 113 4.2. Delegating Iteration 114 4.3. Creating New Iteration Patterns with Generators 115 4.4. Implementing the Iterator Protocol 117 4.5. Iterating in Reverse 119 4.6. Defining Generator Functions with Extra State 120
  iv | Table of Contents
