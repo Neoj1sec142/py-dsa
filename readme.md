@@ -33,38 +33,40 @@
 [x] - [2.7. Specifying a Regular Expression for the Shortest Match](./lessons/str-2/str2.py)
 [x] - [2.8. Writing a Regular Expression for Multiline Patterns](./lessons/str-2/str2.py)
 [x] - [2.9. Normalizing Unicode Text to a Standard Representation](./lessons/str-2/str3.py)
-[x] - [2.10. Working with Unicode Characters in Regular Expressions]()
-[x] - [2.11. Stripping Unwanted Characters from Strings]()
-[] - [2.12. Sanitizing and Cleaning Up Text]()
-[] - [2.13. Aligning Text Strings]()
-[] - [2.14. Combining and Concatenating Strings]()
-[] - [2.15. Interpolating Variables in Strings]()
-[] - [2.16. Reformatting Text to a Fixed Number of Columns]()
-[] - [2.17. Handling HTML and XML Entities in Text]()
-[] - [2.18. Tokenizing Text]()
-[] - [2.19. Writing a Simple Recursive Descent Parser]()
-[] - [2.20. Performing Text Operations on Byte Strings]()
+[x] - [2.10. Working with Unicode Characters in Regular Expressions](./lessons/str-2/str3.py)
+[x] - [2.11. Stripping Unwanted Characters from Strings](./lessons/str-2/str3.py)
+[x] - [2.12. Sanitizing and Cleaning Up Text](./lessons/str-2/str3.py)
+[x] - [2.13. Aligning Text Strings](./lessons/str-2/str3.py)
+[] - [2.14. Combining and Concatenating Strings](./lessons/str-2/str4.py)
+[] - [2.15. Interpolating Variables in Strings](./lessons/str-2/str4.py)
+[] - [2.16. Reformatting Text to a Fixed Number of Columns](./lessons/str-2/str4.py)
+[] - [2.17. Handling HTML and XML Entities in Text](./lessons/str-2/str4.py)
+[] - [2.18. Tokenizing Text](./lessons/str-2/str5.py)
+[] - [2.19. Writing a Simple Recursive Descent Parser](./lessons/str-2/str5.py)
+[] - [2.20. Performing Text Operations on Byte Strings](./lessons/str-2/str5.py)
 ***        
 
 ## 3. Numbers, Dates, and Times
-3.1. Rounding Numerical Values 
-3.2. Performing Accurate Decimal Calculations 
-3.3. Formatting Numbers for Output 
-3.4. Working with Binary, Octal, and Hexadecimal Integers 
-3.5. Packing and Unpacking Large Integers from Bytes 
-3.6. Performing Complex-Valued Math 
-3.7. Working with Infinity and NaNs 
-3.8. Calculating with Fractions 
-3.9. Calculating with Large Numerical Arrays 
-3.10. Performing Matrix and Linear Algebra Calculations 
-3.11. Picking Things at Random 
-3.12. Converting Days to Seconds, and Other Basic Time Conversions 
-3.13. Determining Last Friday’s Date 
-3.14. Finding the Date Range for the Current Month 
-3.15. Converting Strings into Datetimes 
-3.16. Manipulating Dates Involving Time Zones 
+[] - [3.1. Rounding Numerical Values]()
+[] - [3.2. Performing Accurate Decimal Calculations]()
+[] - [3.3. Formatting Numbers for Output]()
+[] - [3.4. Working with Binary, Octal, and Hexadecimal Integers]()
+[] - [3.5. Packing and Unpacking Large Integers from Bytes]()
+[] - [3.6. Performing Complex-Valued Math]()
+[] - [3.7. Working with Infinity and NaNs]()
+[] - [3.8. Calculating with Fractions]()
+[] - [3.9. Calculating with Large Numerical Arrays]()
+[] - [3.10. Performing Matrix and Linear Algebra Calculations]()
+[] - [3.11. Picking Things at Random]()
+[] - [3.12. Converting Days to Seconds, and Other Basic Time Conversions]()
+[] - [3.13. Determining Last Friday’s Date]()
+[] - [3.14. Finding the Date Range for the Current Month]()
+[] - [3.15. Converting Strings into Datetimes]()
+[] - [3.16. Manipulating Dates Involving Time Zones]()
 ***      
-4. Iterators and Generators. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 113
+
+## 4. Iterators and Generators
+113
 4.1. Manually Consuming an Iterator 113 4.2. Delegating Iteration 114 4.3. Creating New Iteration Patterns with Generators 115 4.4. Implementing the Iterator Protocol 117 4.5. Iterating in Reverse 119 4.6. Defining Generator Functions with Extra State 120
  iv | Table of Contents
 www.it-ebooks.info
