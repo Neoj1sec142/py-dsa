@@ -87,27 +87,70 @@ s = '{name} has {n} messages.'
 # print(s.format_map(vars()))
 
 # You can also use vars() with an instance
-class Info:
-    def __init__(self, name, n):
-        self.name = name
-        self.n = n
-class safesub(dict):
-    # def __init__(self, *args, **kwargs):
-    #     super().__init__(*args, **kwargs)
-    def __missing__(self, key):
-        return '{' + key + '}'
+# class Info:
+#     def __init__(self, name, n):
+#         self.name = name
+#         self.n = n
+# class safesub(dict):
+#     # def __init__(self, *args, **kwargs):
+#     #     super().__init__(*args, **kwargs)
+#     def __missing__(self, key):
+#         return '{' + key + '}'
 
 # a = safesub('Guildo')
 # print(s.format_map(safesub(vars())))
 # Now you  can :
-import sys
-def sub(text):
-    return text.format_map(safesub(sys._getframe(1).f_locals))
+# import sys
+# def sub(text):
+#     return text.format_map(safesub(sys._getframe(1).f_locals))
 # name = 'Neo'
 # n = 31
 # print(sub('Hello {name}'))
 # print(sub('You have {n} messages'))
 # ######## 2.16 ###########
-''''''
+'''
+You have long strings that you want 
+to reformat so that they fill a 
+user-specified number of columns.
+'''
+# s = "Look into my eyes, look into my eyes, the eyes, the eyes, \
+#     the eyes, not around the eyes, don't look around the eyes, \
+#     look into my eyes, you're under."
+# import textwrap
+# print(textwrap.fill(s, 40, subsequent_indent='  '))
+# The textwrap is pretty strait forward way 
+# of formatting text for printing. If you want
+# to format for the size of the terminal:
+# import os
+# size = os.get_terminal_size()
+# print(size.columns)
+# print(textwrap.fill(s, size.columns))
+
 # ######## 2.17 ###########
-''''''
+'''
+You want to replace HTML or XML 
+entities such as &entity; or &#code; 
+with their corresponding text. 
+Alternatively, you need to produce 
+text, but escape certain characters 
+(e.g., <, >, or &).
+'''
+# s = 'Elements are written as <tag>text</tag>'
+# import html
+# print(s)
+# print(html.escape(s))
+# Disable escaping of quotes
+# print(html.escape(s, quote=False))
+
+# s = 'Spicy Jalapeño'
+# print(s.encode('ascii', errors='xmlcharrefreplace'))
+
+# When actually loading XML or HTML use a parser first
+# s = 'Spicy &quot;Jalape&#241;o&quot.'
+# import html
+# p = html.unescape(s)
+# print(p)
+# t = 'The prompt is &gt;&gt;&gt;'
+# from xml.sax.saxutils import unescape
+# print(unescape(t))
+
