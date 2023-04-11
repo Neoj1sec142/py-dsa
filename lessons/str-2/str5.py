@@ -129,11 +129,52 @@ class ExpressionEvaluator:
         else: 
             raise SyntaxError('Expected a NUMBER or LPAREN')
         
-e = ExpressionEvaluator()
-print(e.parse('2'))
-print(e.parse('2 * 3 + 3'))
-print(e.parse('2 * (3 + 3)'))
-        
-        
+# e = ExpressionEvaluator()
+# print(e.parse('2'))
+# print(e.parse('2 * 3 + 3'))
+# print(e.parse('2 * (3 + 3)'))
+'''
+If you want to do something other than pure
+evaluation, you need to change the class, EX:
+'''
+class ExpressionTreeBuilder(ExpressionEvaluator):
+    def expr(self):
+        "expression ::= term { ('+'|'-') term }"
+        exprval = self.term()
+        while self._accept('PLUS') or self._accept('MINUS'):
+            op = self.tok.type
+            right = self.term()
+            if op == 'PLUS':
+                exprval = ('+', exprval, right)
+            elif op == 'MINUS':
+                exprval = ('-', exprval, right)
+        return exprval
+    def term(self):
+        "term ::= factor { ('*'|'/') factor }"
+        termval = self.factor()
+        while self._accept('TIMES') or self._accept('DIVIDE'):
+            op = self.tok.type
+            right = self.factor()
+            if op == 'TIMES':
+                termval = ('*', termval, right)
+            elif op == 'DIVIDE':
+                termval = ('/', termval, right)
+        return termval
+    def factor(self):
+        'factor ::= NUM | ( expr )'
+        if self._accept('NUM'):
+            return int(self.tok.value)
+        elif self._accept('LPAREN'):
+            exprval = self.expr()
+            self._expect('RPAREN')
+            return exprval
+        else:
+            raise SyntaxError('Expected a NUMBER or LPAREN')
+# IN USE
+# e = ExpressionTreeBuilder()
+# print(e.parse('2 + 3'))
+# print(e.parse('2 + 3 * 4'))
+# print(e.parse('2 + (3 + 4) * 5'))
+# print(e.parse('2 + 3 + 4'))
 # ######## 2.20 ###########
 ''''''
