@@ -246,4 +246,31 @@ more complex parsing use:
 # print(parser.parse('2+(3+4)*5'))
 
 # ######## 2.20 ###########
-''''''
+'''
+You want to perform common text 
+operations (e.g., stripping, searching,
+and replacement) on byte strings.
+'''
+# data = b'Hello Bytes'
+# print(data[0:5])
+# print(data.startswith(b'Hello'))
+# print(data.split())
+# print(data.replace(b'Hello', b'Hello Cruel'))
+# Such opts work w/ byte arrays too:
+# data = bytearray(b'Hello Bytes')
+# print(data[0:5])
+# print(data.startswith(b'Hello'))
+# print(data.split())
+# print(data.replace(b'Hello', b'Hello Cruel'))
+'''
+You can apply regular expression pattern 
+matching to byte strings, but the patterns 
+themselves need to be specified as bytes
+'''
+# data = b'FOO:BAR,SPAM'
+# import re
+# print(re.split(b'[:,]', data))
+# THERE ARE NO INDEXING OR FORMATTING OPTS 
+# FOR BYTE STRINGS JUST DECODE TO ASCII
+
+

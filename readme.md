@@ -43,7 +43,7 @@
 [x] - [2.17. Handling HTML and XML Entities in Text](./lessons/str-2/str4.py)
 [x] - [2.18. Tokenizing Text](./lessons/str-2/str5.py)
 [x] - [2.19. Writing a Simple Recursive Descent Parser](./lessons/str-2/str5.py)
-[] - [2.20. Performing Text Operations on Byte Strings](./lessons/str-2/str5.py)
+[x] - [2.20. Performing Text Operations on Byte Strings](./lessons/str-2/str5.py)
 ***        
 
 ## 3. Numbers, Dates, and Times
