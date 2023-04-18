@@ -47,22 +47,22 @@
 ***        
 
 ## 3. Numbers, Dates, and Times
-[] - [3.1. Rounding Numerical Values]()
-[] - [3.2. Performing Accurate Decimal Calculations]()
-[] - [3.3. Formatting Numbers for Output]()
-[] - [3.4. Working with Binary, Octal, and Hexadecimal Integers]()
-[] - [3.5. Packing and Unpacking Large Integers from Bytes]()
-[] - [3.6. Performing Complex-Valued Math]()
-[] - [3.7. Working with Infinity and NaNs]()
-[] - [3.8. Calculating with Fractions]()
-[] - [3.9. Calculating with Large Numerical Arrays]()
-[] - [3.10. Performing Matrix and Linear Algebra Calculations]()
-[] - [3.11. Picking Things at Random]()
-[] - [3.12. Converting Days to Seconds, and Other Basic Time Conversions]()
-[] - [3.13. Determining Last Friday’s Date]()
-[] - [3.14. Finding the Date Range for the Current Month]()
-[] - [3.15. Converting Strings into Datetimes]()
-[] - [3.16. Manipulating Dates Involving Time Zones]()
+[x] - [3.1. Rounding Numerical Values](./lessons/numdt-3/num1.py)
+[x] - [3.2. Performing Accurate Decimal Calculations](./lessons/numdt-3/num1.py)
+[] - [3.3. Formatting Numbers for Output](./lessons/numdt-3/num1.py)
+[] - [3.4. Working with Binary, Octal, and Hexadecimal Integers](./lessons/numdt-3/num1.py)
+[] - [3.5. Packing and Unpacking Large Integers from Bytes](./lessons/numdt-3/num2.py)
+[] - [3.6. Performing Complex-Valued Math](./lessons/numdt-3/num2.py)
+[] - [3.7. Working with Infinity and NaNs](./lessons/numdt-3/num2.py)
+[] - [3.8. Calculating with Fractions](./lessons/numdt-3/num2.py)
+[] - [3.9. Calculating with Large Numerical Arrays](./lessons/numdt-3/num3.py)
+[] - [3.10. Performing Matrix and Linear Algebra Calculations](./lessons/numdt-3/num3.py)
+[] - [3.11. Picking Things at Random](./lessons/numdt-3/num3.py)
+[] - [3.12. Converting Days to Seconds, and Other Basic Time Conversions](./lessons/numdt-3/num3.py)
+[] - [3.13. Determining Last Friday’s Date](./lessons/numdt-3/num4.py)
+[] - [3.14. Finding the Date Range for the Current Month](./lessons/numdt-3/num4.py)
+[] - [3.15. Converting Strings into Datetimes](./lessons/numdt-3/num4.py)
+[] - [3.16. Manipulating Dates Involving Time Zones](./lessons/numdt-3/num4.py)
 ***      
 
 ## 4. Iterators and Generators
