@@ -5,17 +5,17 @@ the split() does not allow for more than
 one delimiter or handle white space before
 or after delimiters - re.split() (more flexible)
 '''
-# line = 'asdf fjdk; afed, fjek,asdf, foo'
-# import re
+line = 'asdf fjdk; afed, fjek,asdf, foo'
+import re
 # print(re.split(r'[:,\s]\s*', line))
 # be careful of capture groups though (they capture the delimiters)
-# fields = re.split(r'(;|,|\s)\s*', line)
+fields = re.split(r'(;|,|\s)\s*', line)
 # print(fields)
-# it can be useful in certain contexts though
+# # it can be useful in certain contexts though
 # values = fields[::2]
 # delimiters = fields[1::2] + ['']
-# print(values)
-# print(delimiters)
+# print(values, "VALS")
+# print(delimiters, "DELIM")
 '''
 If you don't want the separator characters in
 the result, but still need to use parentheses 

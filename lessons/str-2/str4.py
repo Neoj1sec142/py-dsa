@@ -33,11 +33,11 @@ want to join are large it may be better
 to create a generator function
 to emit fragments
 '''
-# def sample_gen():
-#     yield 'Is'
-#     yield 'Chicago'
-#     yield 'Not'
-#     yield 'Chicago?'
+def sample_gen():
+    yield 'Is'
+    yield 'Chicago'
+    yield 'Not'
+    yield 'Chicago?'
 '''
 you can then join the fragements #1,
 redirect the fragements #2,
@@ -45,26 +45,27 @@ or you can come up with a hybrid scheme
 thats smart about i/o operations #3
 '''
 #1
-# text = ''.join(sample_gen())
+text = ''.join(sample_gen())
 # print(text)
 #2
 # for part in sample_gen():
-    # f.write(part)
+#     # f.write(part)
+#     print(part)
 #3 
-# def combine(source, maxsize):
-#     parts = []
-#     size = 0
-#     for part in source:
-#         parts.append(part)
-#         size += len(part)
-#         if size > maxsize:
-#             yield ''.join(parts)
-#             parts = []
-#             size = 0
-#     yield ''.join(parts)
-# for part in combine(sample_gen(), 32768):
-#     # print(part)
-#     pass
+def combine(source, maxsize):
+    parts = []
+    size = 0
+    for part in source:
+        parts.append(part)
+        size += len(part)
+        if size > maxsize:
+            yield ''.join(parts)
+            parts = []
+            size = 0
+    yield ''.join(parts)
+for part in combine(sample_gen(), 32768):
+    print(part)
+    pass
 '''
 The key point is that the 
 original generator function doesn't 
